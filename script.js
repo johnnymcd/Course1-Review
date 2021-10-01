@@ -1,25 +1,23 @@
 
+
+
   let dogDiv = document.querySelector("#doggo");
-       //console.log(dogDiv)
+  //console.log(dogDiv)
+
+
+let dogTbrow = document.querySelector("#doggo-votes");
+
 
   let dogBtn = document.createElement("button");
       dogBtn.textContent = "Vote for Doggo";  
-  
-   console.log(dogBtn);
-// let animals = document.querySelectorAll(".animal")
+      dogDiv.append(dogBtn);
 
 
-//if(dogvote) {
-//    let dogvotecounter =parseint(dog-votes);
- //   dogtbrow.textContent = dogvotecounter;
-//}
+      dogBtn.addEventListener("click",function(){
+     //console.log("button was clicked");
+        console.log(dogTbrow);
+      });
 
-
-
-
-
-// select pet div
-//let dogDiv = document.querySelector("#doggo");
 
 
 
